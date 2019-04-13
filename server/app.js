@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-const port = 3032;
+const port = 3004;
 
 app.use("/:id", express.static(__dirname +"./../public"));
 
